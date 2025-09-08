@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="inspire_hand_left">
+
+  <!-- Include the hand macro -->
+  <xacro:include filename="$(find inspire_rh56_hand_description)/urdf/inspire_hand_left_macro.xacro"/>
+
+  <!-- World link -->
+  <link name="world"/>
+
+  <!-- Instantiate the left hand -->
+  <xacro:inspire_hand_left parent="world" prefix="">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:inspire_hand_left>
+
+</robot>
