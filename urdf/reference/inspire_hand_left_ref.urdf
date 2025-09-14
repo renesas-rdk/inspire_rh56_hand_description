@@ -16,7 +16,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/visual/left_base_link.glb"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/visual/left_base_link.glb"/>
       </geometry>
     </visual>
     <collision>
@@ -77,13 +77,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/visual/left_thumb_proximal_base.glb"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/visual/left_thumb_proximal_base.glb"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/collision/left_thumb_proximal_base.obj"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/collision/left_thumb_proximal_base.obj"/>
       </geometry>
     </collision>
   </link>
@@ -103,13 +103,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/visual/left_thumb_proximal.glb"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/visual/left_thumb_proximal.glb"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/collision/left_thumb_proximal.obj"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/collision/left_thumb_proximal.obj"/>
       </geometry>
     </collision>
   </link>
@@ -129,13 +129,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/visual/left_thumb_intermediate.glb"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/visual/left_thumb_intermediate.glb"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/collision/left_thumb_intermediate.obj"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/collision/left_thumb_intermediate.obj"/>
       </geometry>
     </collision>
   </link>
@@ -156,13 +156,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/visual/left_thumb_distal.glb"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/visual/left_thumb_distal.glb"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/collision/left_thumb_distal.obj" scale="1 1 1"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/collision/left_thumb_distal.obj" scale="1 1 1"/>
       </geometry>
     </collision>
   </link>
@@ -183,13 +183,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/visual/left_index_proximal.glb"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/visual/left_index_proximal.glb"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/collision/left_index_proximal.obj"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/collision/left_index_proximal.obj"/>
       </geometry>
     </collision>
   </link>
@@ -209,13 +209,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/visual/left_index_intermediate.glb"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/visual/left_index_intermediate.glb"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/collision/left_index_intermediate.obj"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/collision/left_index_intermediate.obj"/>
       </geometry>
     </collision>
   </link>
@@ -236,13 +236,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/visual/left_index_proximal.glb"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/visual/left_index_proximal.glb"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/collision/left_index_proximal.obj"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/collision/left_index_proximal.obj"/>
       </geometry>
     </collision>
   </link>
@@ -262,13 +262,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/visual/left_middle_intermediate.glb"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/visual/left_middle_intermediate.glb"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/collision/left_middle_intermediate.obj"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/collision/left_middle_intermediate.obj"/>
       </geometry>
     </collision>
   </link>
@@ -289,13 +289,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/visual/left_index_proximal.glb"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/visual/left_index_proximal.glb"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/collision/left_index_proximal.obj"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/collision/left_index_proximal.obj"/>
       </geometry>
     </collision>
   </link>
@@ -315,13 +315,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/visual/left_index_intermediate.glb"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/visual/left_index_intermediate.glb"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/collision/left_index_intermediate.obj"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/collision/left_index_intermediate.obj"/>
       </geometry>
     </collision>
   </link>
@@ -342,13 +342,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/visual/left_index_proximal.glb"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/visual/left_index_proximal.glb"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/collision/left_index_proximal.obj"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/collision/left_index_proximal.obj"/>
       </geometry>
     </collision>
   </link>
@@ -368,13 +368,13 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/visual/left_pinky_intermediate.glb"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/visual/left_pinky_intermediate.glb"/>
       </geometry>
     </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://inspire_rh56_urdf/urdf/meshes/collision/left_pinky_intermediate.obj"/>
+        <mesh filename="package://inspire_rh56_urdf/meshes/collision/left_pinky_intermediate.obj"/>
       </geometry>
     </collision>
   </link>

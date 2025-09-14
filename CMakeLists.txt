@@ -10,6 +10,11 @@ install(
   DESTINATION share/${PROJECT_NAME}/urdf
 )
 
+install(
+  DIRECTORY meshes/
+  DESTINATION share/${PROJECT_NAME}/meshes
+)
+
 # Install launch files
 install(
   DIRECTORY launch/
