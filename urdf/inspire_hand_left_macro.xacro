@@ -110,7 +110,7 @@
       <parent link="${prefix}hand_base_link"/>
       <child link="${prefix}thumb_proximal_base"/>
       <axis xyz="0 0 1"/>
-      <limit lower="0" upper="1.308" effort="1" velocity="0.5"/>
+      <limit lower="0" upper="1.308" effort="1" velocity="1.635"/>
     </joint>
 
     <!-- Thumb proximal -->
@@ -139,7 +139,7 @@
       <parent link="${prefix}thumb_proximal_base"/>
       <child link="${prefix}thumb_proximal"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="0.6" effort="1" velocity="0.5"/>
+      <limit lower="0" upper="0.6" effort="1" velocity="0.75"/>
     </joint>
 
     <!-- Thumb intermediate -->
@@ -168,7 +168,7 @@
       <parent link="${prefix}thumb_proximal"/>
       <child link="${prefix}thumb_intermediate"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="0.8" effort="1" velocity="0.5"/>
+      <limit lower="0" upper="0.8" effort="1" velocity="1"/>
       <mimic joint="${prefix}thumb_proximal_pitch_joint" multiplier="1.334" offset="0"/>
     </joint>
 
@@ -228,7 +228,7 @@
       <parent link="${prefix}hand_base_link"/>
       <child link="${prefix}index_proximal"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="1.47" effort="1" velocity="0.5"/>
+      <limit lower="0" upper="1.47" effort="1" velocity="1.8375"/>
     </joint>
 
     <!-- Index finger intermediate -->
@@ -257,7 +257,7 @@
       <parent link="${prefix}index_proximal"/>
       <child link="${prefix}index_intermediate"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="-0.04545" upper="1.56" effort="1" velocity="0.5"/>
+      <limit lower="-0.04545" upper="1.56" effort="1" velocity="2.0068"/>
       <mimic joint="${prefix}index_proximal_joint" multiplier="1.06399" offset="-0.04545"/>
     </joint>
 
@@ -287,7 +287,7 @@
       <parent link="${prefix}hand_base_link"/>
       <child link="${prefix}middle_proximal"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="1.47" effort="1" velocity="0.5"/>
+      <limit lower="0" upper="1.47" effort="1" velocity="1.8375"/>
     </joint>
 
     <!-- Middle finger intermediate -->
@@ -316,7 +316,7 @@
       <parent link="${prefix}middle_proximal"/>
       <child link="${prefix}middle_intermediate"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="-0.04545" upper="1.56" effort="1" velocity="0.5"/>
+      <limit lower="-0.04545" upper="1.56" effort="1" velocity="2.0068"/>
       <mimic joint="${prefix}middle_proximal_joint" multiplier="1.06399" offset="-0.04545"/>
     </joint>
 
@@ -346,7 +346,7 @@
       <parent link="${prefix}hand_base_link"/>
       <child link="${prefix}ring_proximal"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="1.47" effort="1" velocity="0.5"/>
+      <limit lower="0" upper="1.47" effort="1" velocity="1.8375"/>
     </joint>
 
     <!-- Ring finger intermediate -->
@@ -375,7 +375,7 @@
       <parent link="${prefix}ring_proximal"/>
       <child link="${prefix}ring_intermediate"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="-0.04545" upper="1.56" effort="1" velocity="0.5"/>
+      <limit lower="-0.04545" upper="1.56" effort="1" velocity="2.0068"/>
       <mimic joint="${prefix}ring_proximal_joint" multiplier="1.06399" offset="-0.04545"/>
     </joint>
 
@@ -405,7 +405,7 @@
       <parent link="${prefix}hand_base_link"/>
       <child link="${prefix}pinky_proximal"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="0" upper="1.47" effort="1" velocity="0.5"/>
+      <limit lower="0" upper="1.47" effort="1" velocity="1.8375"/>
     </joint>
 
     <!-- Pinky finger intermediate -->
@@ -434,7 +434,7 @@
       <parent link="${prefix}pinky_proximal"/>
       <child link="${prefix}pinky_intermediate"/>
       <axis xyz="0 0 -1"/>
-      <limit lower="-0.04545" upper="1.56" effort="1" velocity="0.5"/>
+      <limit lower="-0.04545" upper="1.56" effort="1" velocity="2.0068"/>
       <mimic joint="${prefix}pinky_proximal_joint" multiplier="1.06399" offset="-0.04545"/>
     </joint>
 
